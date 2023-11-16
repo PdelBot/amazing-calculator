@@ -16,14 +16,49 @@ public class IncredibleCalculator {
 
         switch (opcion) {
             case 1: //Sumar. Debes leer dos numeros enteros de entrada e imprimir su suma
+                System.out.println("Seleccione el primer número")
+                Scanner sc = new Scanner(System.in);
+                int num1 = Integer.parseInt(sc.next());
+                System.out.println("Seleccione el segundo número")
+                Scanner sc = new Scanner(System.in);
+                int num2 = Integer.parseInt(sc.next());
+                int result=num1+num2; 
                     break;
             case 2: // Restar. Debes leer dos números enteros de entrada e imprimir su resta
+                System.out.println("Seleccione el primer número")
+                Scanner sc = new Scanner(System.in);
+                int num1 = Integer.parseInt(sc.next());
+                System.out.println("Seleccione el segundo número")
+                Scanner sc = new Scanner(System.in);
+                int num2 = Integer.parseInt(sc.next());
+                int result=num1-num2;
                     break;
             case 3: // Multiplicar. Debes leer dos números enteros de entrada e imprimir su producto.
+                System.out.println("Seleccione el primer número")
+                Scanner sc = new Scanner(System.in);
+                int num1 = Integer.parseInt(sc.next());
+                System.out.println("Seleccione el segundo número")
+                Scanner sc = new Scanner(System.in);
+                int num2 = Integer.parseInt(sc.next());
+                int result=num1*num2;                    
                     break;
             case 4: // Multiplicar. Debes leer dos números enteros de entrada e imprimir su división entera.
+                System.out.println("Seleccione el primer número")
+                Scanner sc = new Scanner(System.in);
+                int num1 = Integer.parseInt(sc.next());
+                System.out.println("Seleccione el segundo número")
+                Scanner sc = new Scanner(System.in);
+                int num2 = Integer.parseInt(sc.next());
+                int result=num1/num2;                    
                     break;
             case 5: // Multiplicar. Debes leer dos números enteros de entrada e imprimir su división con decimales.
+                System.out.println("Seleccione el primer número")
+                Scanner sc = new Scanner(System.in);
+                int num1 = Integer.parseInt(sc.next());
+                System.out.println("Seleccione el segundo número")
+                Scanner sc = new Scanner(System.in);
+                int num2 = Integer.parseInt(sc.next());
+                double result=num1/num2;                    
                     break;
 
         }
